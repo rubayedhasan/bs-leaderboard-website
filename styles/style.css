@@ -16,10 +16,18 @@ li {
 }
 
 body {
-  background-color: #f3f1ff;
-  font-family: "Open Sans", sans-serif;
+  background-color: #e5e5e5 !important;
+  /* font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif; */
+}
+
+.section-title {
+  color: #562eff;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 40px;
 }
 
 /* header section styles  */
@@ -41,5 +49,30 @@ nav .nav-item .nav-link {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+
+/* player-and-blog section styles  */
+.player-and-blog {
+  margin-top: 36px;
+  padding: 33px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.players {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.players .player img {
+  height: 125px;
+  width: 125px;
+}
+
+.players .player .player-name {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
 }
