@@ -15,11 +15,21 @@ li {
   list-style: none;
 }
 
+/* common styles  */
+
 body {
   background-color: #e5e5e5 !important;
   /* font-family: "Open Sans", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif; */
+}
+
+.player-and-blog,
+.courses {
+  margin-top: 36px;
+  padding: 33px 100px;
+  background-color: #fff;
+  border-radius: 10px;
 }
 
 .section-title {
@@ -52,16 +62,10 @@ nav .nav-item .nav-link {
   font-family: "Poppins", sans-serif;
 }
 
-/* player-and-blog section styles  */
-.player-and-blog {
-  margin-top: 36px;
-  padding: 33px;
-  background-color: #fff;
-  border-radius: 10px;
-}
-
+/* players section styles  */
 .players {
   padding-bottom: 30px;
+  margin-bottom: 30px;
   border-bottom: 1px solid #d1d1d1;
 }
 
@@ -75,4 +79,24 @@ nav .nav-item .nav-link {
   font-size: 18px;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
+}
+
+/* blogs section styles  */
+.blog .blog-title {
+  color: #000;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+.blog .blog-text {
+  color: #9f9f9f;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+}
+.blog .blog-text .blog-author {
+  color: #562eff;
 }
