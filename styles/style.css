@@ -19,9 +19,9 @@ li {
 
 body {
   background-color: #e5e5e5 !important;
-  /* font-family: "Open Sans", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-family: "Roboto", sans-serif; */
+}
+main {
+  margin-bottom: 43px;
 }
 
 .player-and-blog,
@@ -99,4 +99,53 @@ nav .nav-item .nav-link {
 }
 .blog .blog-text .blog-author {
   color: #562eff;
+}
+
+/* courses section styles  */
+.course .card {
+  border: 0;
+  transition: padding 1.5s;
+}
+.course .card:hover {
+  padding: 15px;
+  border: 1.5px solid #1e1e1e;
+}
+.course .card .card-title {
+  color: #1e1e1e;
+  font-size: 20.03px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.course .card .card-text {
+  color: #ed6b4f;
+  font-size: 14.69px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.card-info .course-rate-icon .fa-star {
+  color: #ffc014;
+  font-size: 18px;
+}
+.card-info .course-rate-icon .fa-star-half,
+.card-info .course-rate-icon .fa-star-half-stroke {
+  color: #aeaeae;
+  font-size: 18px;
+}
+
+.card-info .rating {
+  color: #a2a2a2;
+  font-size: 14.69px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.card-info .course-duration {
+  color: #ff4a60;
+  padding: 10px 15px;
+  background-color: #ffe4e8;
+  font-size: 14.69px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
 }
